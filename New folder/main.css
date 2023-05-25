@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.top-main{
+    border:1px solid black;
+     /* width: 90%; */
+    height: 20%;
+    /* margin-top: 5%; */
+    /* margin-left:80px; */
+}
+.main-head {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    color: white;
+    height: 80px;
+    width:100%;
+}
+
+.logo {
+    margin: 10px 80px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+    color: red;
+    font-size:30px;
+    font-weight: bolder;
+}
+
+.bttn {
+    margin-right: 5px;
+    background:transparent;
+    color:white;
+    padding: 15px;
+    border: none;
+    font-size: 20px;
+
+}
+.btn-border{
+    border: 1px solid white;
+    font-size: 20px;
+    background:transparent;
+    padding: 15px;
+    color:white;
+    margin-right: 100px;
+    border-radius: 8px;
+}
+
+.base {
+    margin: 20px 150px;
+    height: 900px;
+    width: 100%;
+
+}
+
+.description {
+    color: #192F60;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: 'source sans pro';
+}
+
+.filter-des {
+    /* border: 1px solid yellow; */
+    height: 550px;
+    width: 80%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    margin-bottom: 10px;
+}
+
+.filter {
+    border: 1px solid grey;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    height: 530px;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 18px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.heading-filter{
+    color: #192F60;
+    font-weight:bold ;
+    font-size: 23px;
+}
+.heading-select-ur-city{
+    color:#192F60 ;
+    font-size:18px ;
+}
+
+.drop {
+    /* border: 1px solid black; */
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.cuisine-section {
+    padding-bottom: 10px;
+    padding-top: 5px;
+    margin-top: 10px;
+    /* border: 1px solid pink; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: space-between; */
+    gap: 5px;
+    font-size:17px ;
+    color: #8C96AB;
+}
+.costing{
+    /* border: 1px solid orange; */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+    font-size:17px ;
+    color: #8C96AB;
+}
+.price-sort{
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+    font-size:17px ;
+    color: #8C96AB;
+}
+
+.new-introduction {
+    /* border: 1px solid grey; */
+    border
+    height: 350px;
+    width: 830px;
+    margin: 10px;
+}
+/* shop1 */
+
+.first-art {
+    display: flex;
+    border: 1px solid grey;
+    width: 85%;
+    height: 250px;
+    /* margin: 20px; */
+    margin-top: 10px;
+    padding: 23px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    
+}
+
+.shop-1 {
+    width: 120px;
+    height:120px;
+    border: 1px solid grey;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 18px;
+    margin-right: 35px;
+    box-shadow: 5px 5px 15px #8C96AB;
+
+}
+
+.shop-1-des {
+    margin-left: 10px;
+}
+
+.intro1 {
+    color:#192F60;
+    font-weight: bold;
+    font-size:30px;
+}
+
+.intro2 {
+    color: #192F60;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.intro3 {
+    color: #636F88;
+    margin-bottom:60px;
+}
+.intro4 {
+    border-top:1px solid #8C96AB;
+    height: 40px;
+    width: 480px;
+    height: 2px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    color: #636F88;
+  }
+/* shop2 */
+
+.sec-art {
+    display: flex;
+    border: 1px solid grey;
+    width: 85%;
+    height: 250px;
+    /* margin: 20px; */
+    margin-top: 10px;
+    padding: 23px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.sub-intro{
+    color: #636F88;
+    margin-top: 7px;
+}
+
