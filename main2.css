@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Poppins&display=swap');
+
+/* new font updated from google- regular fonts400 */
+
+body{
+    font-family:poppins !important;
+}
+
+.text-yellow{
+    color: yellow;
+}
+.brand{
+    border: 1px solid white;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plain-text{
+color: #192F60;
+text-shadow: 0px 0px 2px pink;
+}
+.rest-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.address{
+color: #636F88;
+
+}
+.line{
+    width: 90%;
+margin-bottom: 0px;
+margin-top: 2px;
+}
+
+.my-pagination{
+display: flex;
+list-style: none;
+padding: 0;
+}
+.my-page-items{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border: 1px solid grey;
+    margin:5px;
+    /* margin top: 5px; */
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.active{
+    background-color: grey;
+    color: white;
+}
+.my-shadow{
+    box-shadow: 0px 0px 5px gray;
+/* These value are
+     0px(y-axis), 0px(x-axis), 5px(blur effect) */
+     /* +(right), +(top)
+        -(left) ,-(bottom) */
+}
+.change-color{
+    accent-color: red;
+    /* <input type="checkbox" class="change-color" */
+    /* this is working as individual not in code check later */
+}

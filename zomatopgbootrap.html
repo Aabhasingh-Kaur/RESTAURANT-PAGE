@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new page with bootstrap</title>
+    <link rel="stylesheet" href="./day1/css/bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href="./main2.css">
+<!-- add bootstrap js -->
+<script src="./day1/css/bootstrap/js/bootstrap.js"></script>
+</head>
+<body>
+   <section class="container-fluid ">
+    <section class="row">
+        <section class="col-12 bg-danger px-0 px-lg-3">
+            <header class="container d-flex justify-content-between p-2">
+                <div>
+                    <p class="mb-0 bg-light fw-bold brand text-danger fs-1">e!</p>
+                </div>
+                <div class="p-2">
+                    <button class="btn text-light"> Login</button>
+                    <button class="btn btn-outline-light "> Create an account</button>
+                </div>
+            </header>
+        </section>
+    </section>
+    <!-- section2 -->
+    <section class="row bg-light">
+        <section class="col-11 col-lg-10 m-auto mt-2 ">
+            <h3 class="fw-bolder plain-text d-lg-block d-none">
+                Breakfast Places in Mumbai
+            </h3>
+            <!-- h5 is repeated for responsive
+            d-lg-block is for displaying in large size
+        d-none is for hiding (display none) -->
+            <h5 class="fw-bolder plain-text d-lg-none">
+                Breakfast Places in Mumbai
+            </h5>
+       <section class="row gap-lg-4">
+
+        <!-- collapse logic -->
+        <section
+        class=" col-12 col-lg-3 my-shadow p-3 pt-2 bg-white mb-2 d-flex justify-content-between collapse d-lg-none">
+            
+            <p class="m-0 fw-bold">Filter/sort</p>
+            <button
+            data-bs-toggle="collapse" 
+            data-bs-target="#collapsefilter">show/hide</button>
+            </section>
+         <!-- filter -->
+        <section class=" col-12 col-lg-3 my-shadow p-3 pt-2 bg-white collapse d-lg-block" id="collapsefilter">
+            <!-- col-12 means for small devices it must have 100% width, bt for large devices only col-3 should be used for filter section -->
+            <p class="m-0 fw-bold">Filter</p>
+            <div class="my-2">
+                <label for="" class="form-label  text-primary fw-bold">Select location</label>
+                <select name="" id="" class="form-select text-muted">
+                    <option value="">----location----</option>
+                    <option value="pune">pune</option>
+                    <option value="banglore">banglore</option>
+                    <option value="delhi">delhi</option>
+                </select>
+            </div>
+            <div class="my-2 mt-3"> 
+                <label for="" class="form-label text-primary fw-bold">Cuisine </label>
+
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input"/>
+                    <label for="" class="form-check-label text-muted"> north india</label>
+                </div>
+                    <div class="form-check">
+                    <input type="checkbox" class="form-check-input"/>
+                    <label for="" class="form-check-label text-muted"> South india</label>
+                </div>
+                    <div class="form-check">
+                    <input type="checkbox" class="form-check-input "/>
+                    <label for="" class="form-check-label text-muted">Chinese</label>
+                </div>
+                    <div class="form-check">
+                    <input type="checkbox" class="form-check-input "/>
+                    <label for="" class="form-check-label text-muted">Fast Food</label>
+                </div>
+                <div class="form-check">
+                <input type="checkbox" class="form-check-input "/>
+                <label for="" class="form-check-label text-muted">Street Food</label>
+            </div>
+            </div>
+            <!-- ------------- -->
+            <div class="my-2"> 
+                <label for="" class="form-label text-primary fw-bold">Cost for two </label>
+
+                <div class="form-check">
+                    <input type="radio" class="form-check-input"/>
+                    <label for="" class="form-check-label text-muted">Less than 500</label>
+                </div>
+                    <div class="form-check">
+                    <input type="radio" class="form-check-input"/>
+                    <label for="" class="form-check-label text-muted">500 to 1000</label>
+                </div>
+                    <div class="form-check">
+                    <input type="radio" class="form-check-input"/>
+                    <label for="" class="form-check-label text-muted">1000 to 1500</label>
+                </div>
+                    <div class="form-check">
+                    <input type="radio" class="form-check-input"/>
+                    <label for="" class="form-check-label text-muted">1500 to 2000</label>
+                </div>
+                <div class="form-check">
+                <input type="radio" class="form-check-input"/>
+                <label for="" class="form-check-label text-muted">2000+</label>
+            </div>
+            </div>
+            <!-- ------------- -->
+            <div class="my-2 mt-3"> 
+                <label for="" class="form-label text-primary fw-bold">Sort</label>
+
+                <div class="form-check">
+                    <input type="radio" class="form-check-input"/>
+                    <label for="" class="form-check-label text-muted">Price low to high</label>
+                </div>
+              <div class="form-check">
+                    <input type="radio" class="form-check-input"/>
+                    <label for="" class="form-check-label text-muted">Price high to low</label>
+                </div>
+                </div>
+        </section>
+<!-- --------------------- restaurant1----------------------- -->
+
+    <section class=" col-12 col-lg-8 mt-3 mt-lg-0 px-0 px-lg-3">
+        <!-- for lagre devices margin top 0 i.e mt-lg-0
+        for small devices mt-3 -->
+        <section class="my-shadow bg-white w-100 mb-5 p-4 ">
+        <section class="d-flex p-3 gap-4 align-items-center">
+                <img src="./img/bakeshop.jfif" class="rest-img">
+            
+            <div>
+                <p class="mb-2 fw-bold h4 plain-text">
+                    The Big Chill Cakery
+                </p>
+                <p class="plain-text fw-bold mb-0">
+                    FORT
+                </p>
+                <p class="address mb-0">
+                    Shop 1, Plot D, Samruddhi Complex, Chincholi …</p>
+            </div>
+        </section>
+        <hr class="line mx-3">
+        <!-- **************** -->
+        <section class=" row">
+            <section class="col-lg-3 col-6 m-xl-3">
+                <p class="address mb-1">CUISINES:</p>
+                <p class="address mb-0">COST FOR TWO:</p>
+            </section>
+            <section class="col-6 col-lg-3 my-2 m-xl-3">
+                <p class="plain-text fw-bold mb-1">Bakery</p>
+                <p class="plain-text fw-bold mb-0">rs700</p>
+            </section>
+
+        </section>
+
+        </section>
+       <!-- *******************rest-2*********************** -->
+       <section class="my-shadow bg-white w-100 mb-4 p-4 ">
+        <section class="d-flex p-3 gap-4 align-items-center">
+                <img src="./img/bakeshop.jfif" class="rest-img">
+            
+            <div>
+                <p class="mb-2 fw-bold h4 plain-text">
+                    The Big Chill Cakery
+                </p>
+                <p class="plain-text fw-bold mb-0">
+                    FORT
+                </p>
+                <p class="address mb-0">
+                    Shop 1, Plot D, Samruddhi Complex, Chincholi …</p>
+            </div>
+        </section>
+        <hr class="line mx-3">
+        <!-- **************** -->
+        <section class=" row">
+            <section class="col-lg-3 col-6  m-xl-3">
+                <p class="address mb-1">CUISINES:</p>
+                <p class="address mb-0">COST FOR TWO:</p>
+            </section>
+            <section class="col-6 col-lg-3 my-2 m-xl-3">
+                <p class="plain-text fw-bold mb-1">Bakery</p>
+                <p class="plain-text fw-bold mb-0">rs700</p>
+            </section>
+
+        </section>
+
+        </section>
+       <!-- $$$$$$$$$$$$$$$--pagination--$$$$$$$$$$$$$$$$$$ -->
+       <section class="d-flex justify-content-center">
+            <ul class="my-pagination">
+            <li class="my-page-items">&lt</li>
+            <li class="my-page-items active">1</li>
+            <li class="my-page-items">2</li>
+            <li class="my-page-items">3</li>
+            <li class="my-page-items">4</li>
+            <li class="my-page-items">5</li>
+            <li class="my-page-items">&gt</li>
+        </ul>
+       </section>
+    </section>
+</section>
+        </section>
+    </section>
+    </section>
+</body>
+</html>
